@@ -1,0 +1,6 @@
+~$*
+*.tmp
+gando_av_import/logs/*
+!gando_av_import/logs/.gitkeep
+gando_av_import/data/output/*
+gando_av_import/data/projects/*

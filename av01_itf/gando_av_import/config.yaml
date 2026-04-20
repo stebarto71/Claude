@@ -1,0 +1,27 @@
+crs: EPSG:2056
+ili_model: DM01AVCH24D
+
+tools:
+  ili2gpkg:     /opt/interlis/ili2gpkg.jar
+  ilivalidator: /opt/interlis/ilivalidator.jar
+  java:         /usr/bin/java
+
+paths:
+  input_itf:   ./data/input/
+  output_gpkg: ./data/output/
+  styles_qml:  ./styles/qml/
+  styles_svg:  ./styles/svg/
+  project_out: ./data/projects/
+  logs:        ./logs/
+
+layer_style_map:
+  bodenbedeckung_flaeche: bb_flaeche.qml
+  bodenbedeckung_linie:   bb_linie.qml
+  einzelobjekt_flaeche:   eo_flaeche.qml
+  einzelobjekt_linie:     eo_linie.qml
+  einzelobjekt_punkt:     eo_punkt.qml
+  liegenschaft:           ls_grundstueck.qml
+  lfp1:                   fp_lfp1.qml
+  lfp2:                   fp_lfp2.qml
+  lfp3:                   fp_lfp3.qml
+  gebaeudeadresse:        ga_gebaeudeadresse.qml
